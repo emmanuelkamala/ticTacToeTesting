@@ -1,60 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tic Tac Toe</title>
   <link rel="stylesheet" href="./styles/main.css">
-  <title>Testing TicTacToe Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
 
 <body>
-<div class="container">
-  <h1 class="text-center mt-4 mb-12">Tic Tac Toe</h1>
- 
- 
-    <form class="player-info offset-1 mb-4">
-        
-      <div class="form-group">
-        <label for="player1">First Player - Mark(X)</label>
-        <input type="text" class="form-control" id="player1" placeholder="Enter name of player 1">
-      </div>
-
-      <div class="form-group">
-        <label for="player2">Second Player - Mark(O)</label>
-        <input type="text" class="form-control" id="player2" placeholder="Enter name of player 2">
-      </div>
-
-      <button type="submit" class="btn btn-success offset-5">Start Game</button>
-    </form>
-    <div class="col-4 offset-3 place hide">
-    <div class="alert alert-info game-status text-center offset-4">
-      <h4></h4>
+  <h1>Tic Tac Toe</h1>
+  <div id="container">
+    <div id="information">
+      <input type="submit" value="start new game" id="start-button" size=20>
+      <p id="whos-playing"></p>
+      <p id="tie-or-win"></p>
     </div>
 
-    <div class="container mx-auto">
-      <div id="board">
-        <div class="cell text-center display-4"></div>
-        <div class="cell text-center display-4"></div>
-        <div class="cell text-center display-4"></div>
-        <div class="cell text-center display-4"></div>
-        <div class="cell text-center display-4"></div>
-        <div class="cell text-center display-4"></div>
-        <div class="cell text-center display-4"></div>
-        <div class="cell text-center display-4"></div>
-        <div class="cell text-center display-4"></div>
+    <div id="player-grid">
+
+      <div id="row-one">
+        <div id="1" class="button-moves"></div>
+        <div id="2" class="button-moves"></div>
+        <div id="3" class="button-moves"></div>
       </div>
+
+      <div id="row-two">
+        <div id="4" class="button-moves"></div>
+        <div id="5" class="button-moves"></div>
+        <div id="6" class="button-moves"></div>
+      </div>
+
+      <div id="row-three">
+        <div id="7" class="button-moves"></div>
+        <div id="8" class="button-moves"></div>
+        <div id="9" class="button-moves"></div>
+      </div>
+
     </div>
-    <button id="reset" class="mt-4 text-center offset-8 btn btn-success">Reset</button>
+
   </div>
-  </div>
-  <script src="main.js"></script>
+
+  <script src="./main.js"></script>
 </body>
 
 </html>
-
-
-
-
-
