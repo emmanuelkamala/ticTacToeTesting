@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+html {
+  color: #222;
+  font-size: 1.5em;
+  font-weight: 500;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+
+body {
+  color: #222;
+  font-family: 'Roboto Condensed', sans-serif;
+  height: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3%;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#whos-playing, #tie-or-win{
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+#player-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 2%;
+}
+
+#row-one, #row-two, #row-three{
+  display: flex;
+  justify-content: center;
+}
+
+input[type=submit] {
+  margin: 0.2rem;
+  padding: 0.3rem 0.8rem;
+  font-family: inherit;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  border-radius: 0.3rem;
+  background-color: #A9D9D1;
+  color: #000;
+}
+
+#start-button:active{
+  background-color: #41BA75;
+  color: white;
+}
+
+#tie-or-win {
+  background-color: #05910c;
+  font-size: 1.5rem;
+  color: #FFF;
+}
+
+.button-moves{
+  height: 10vw;
+  width: 10vw;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.player-one-move {
+  background-color: #635ada;
+}
+
+.player-two-move {
+  background-color: #f1f52e;
+}
