@@ -4,8 +4,8 @@
 
 The tests are implemented using the Jest testing framework. 
 
-![screenshot](../images/ttt1.png)
-![screenshot](../images/ttt2.png)
+![screenshot](./dist/images/ttt1.png)
+![screenshot](./dist/images/ttt2.png)
 
 
 ## Built With
