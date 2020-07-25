@@ -1,6 +1,6 @@
 # Project: Tic Tac Toe Testing
 
-> It`s a testing of the Tic Tac Toe game, where two players choose a mark and the fill in their respective mark on the 3 by 3 board, a player having three consecutive mark wins the game. If neither player achieves that, then it becomes a draw. This is a simple game with no AI functionality.
+It`s a testing of the Tic Tac Toe game, where two players choose a mark and the fill in their respective mark on the 3 by 3 board, a player having three consecutive mark wins the game. If neither player achieves that, then it becomes a draw. This is a simple game with no AI functionality.
 
 The tests are implemented using the Jest testing framework. 
 

@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  color: #222;
+  color: rgb(235, 232, 232);
   font-family: 'Roboto Condensed', sans-serif;
   height: 100%;
   font-family: 'Roboto Condensed', sans-serif;
@@ -59,20 +59,19 @@ input[type=submit] {
   font-family: inherit;
   font-size: 0.8rem;
   text-transform: uppercase;
-  border-radius: 0.3rem;
-  background-color: #A9D9D1;
-  color: #000;
+  border-radius: 0.1rem;
+  background-color: #404e4c;
+  color: #fff;
 }
 
 #start-button:active{
-  background-color: #41BA75;
+  background-color: #101311;
   color: white;
 }
 
 #tie-or-win {
-  background-color: #05910c;
   font-size: 1.5rem;
-  color: #FFF;
+  color: #05910c;
 }
 
 .button-moves{
@@ -90,5 +89,5 @@ input[type=submit] {
 }
 
 .player-two-move {
-  background-color: #f1f52e;
+  background-color: #404e4c;
 }
